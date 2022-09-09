@@ -1,10 +1,9 @@
-#include <studio.h>
 #include <unistd.h>
 
 /**
 * main - print quote
 *
-* Description: prints Dora's quote
+* Description: print Dora's quote
 *
 * Return: Always 1 (Success)
 */
