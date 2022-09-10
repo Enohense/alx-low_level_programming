@@ -1,2 +1,35 @@
-VimCrypt~03!_wæ(Ùk‚E?êàÁ¹Ïy:e&*§ÖíTB¨v
-„’äüÕ.´å¾õı~R—$øĞºD-ÈÉ®mÊşÁ6ê<ş`[œƒŠFÓ­ŞÔÃ¿¤¼ğvtW““¶)\æKê¡K"®dnÄšÜöP7F È£¤ó'!Î/Lx‹±×({tÔ3™5…Æ&´óøÁ?±ÓÜGJxn¬CÉš#ïSÌù:ëç=Uåõk}&%.N¶zƒrø³²°°ƒ«Üæ±^n'‡ëâ	Q˜É7$\¹Ó®0;ˆııvğZÛŒ±ºÈ2»HÕ‚Ñ$Ç[©qA	°gè'd£å‹î@‘hæÚ‚Ÿ15üÉ=â¼ì(É	®uº¯ÏÄ£°§ûˆ´xáŒ„±UĞrNµf#Âû@/„ú‘Mô@àJ'ê¶²‘µYğvbˆ‡«$õ£CØß-ttLÏb×B•YTd¡”r…œ…8š&¼õ:pƒ¿išø"mî·U-ø¨öd\—Lø.â1«/ˆ²ı)qŠu8b{#0ñXŸ…hCĞ/,›zéN{6FÜÔË¸ôkŒÑ\g\@¶8WÌ©á˜çlEÍ[8ƒx÷€æ4o)rÎ9óŸe‰bş'X0†(iFp¶âQâøŞıOù´ùç«—œ»÷	¾¼ÔÂAÆ6U.Š–JEr‹0SG×ß)"îâà1‘Ì/
+#include <stdio.h>
+/**
+* main - entry point
+*
+* codes for printing all possible two 2-digits
+* in ascending order and seperated by comma followed by a space
+*
+* Return: 0
+*/
+int main(void)
+{
+	int x, y;
+
+	for (x = 0; x < 100; x++)
+	{
+		for (y = 0; y < 100; y++)
+		{
+			if (x > y)
+			{
+				putchar((x / 10) + '0');
+				putchar((x % 10) + '0');
+				putchar(' ');
+				putchar((y / 10) + '0');
+				putchar((y % 10) + '0');
+				if (x != 98)
+				{
+					putchar('.');
+					putchar(' ');
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
+}
