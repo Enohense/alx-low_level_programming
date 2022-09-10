@@ -1,37 +1,7 @@
-#include <stdio.h>
-/**
-* main - entry point
-*
-* codes for printing all possible combination of two two-digits
-* in ascending order and separated by a comma followed by a space
-*
-* Return: 0
-*/
-int main(void)
-{
-	int x, y;
-
-	for (x = 0; x < 100; x++)
-	{
-		for (y = 0; y < 100; y++)
-		{
-			if (x > y)
-			{
-				putchar((x / 10) + '48');
-				putchar((x % 10) + '48');
-				putchar(' ');
-				putchar((y / 10) + '48');
-				putchar((y % 10) + '48');
-
-				if (x != 98 && y != 98)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-		}
-	}
-	putchar('\n');
-
-	return (0);
-}
+VimCrypt~03!TDPe
+h×å¡û‡!~æÃÛÙ)í}cPQ	Á³y‡Æ‰‡h:´3¹±»·>œ€`™àbô½­Ê}L]Àï›IwÕ0ÈÅc-Ö²¸î¸ò´Ş91
+±hÍùÎv£¤ Uo`H™k
+y×mgG¬“l;Ÿ?ùR}s(ıÓÅÛJªE#ı}„‚O?”M}Ç}bãØ=fãuS‚^BòÏ¤O¶›E*SÄ8UíM±Ûê™ÛQKådçŠ•`§)?àh¡ĞSš/{†¡ü[ o,z¼5ŸÃD; ×qD,Èb
+H
+O“æŠê4bÛ+.Ö†¬6Bæ‚#ËD„ §G/»Q?¥Ñb,Lv‰xõ®ß˜––MmêS3u0NıˆÀÙØ×dhX1tEƒwæãÕÎğ<-êŞÛûø#„¨¥bŠ¿öÎî\¯ÀŒx¢ÔYÄhs4ÚìkĞ5…tïN´áaäÜ@èş=]Ë€ä«	N…ÿæJå>Äğ€>`¥;á’uïÿFÁ]„“[°‘6ygy¹t3½s.iº=kwùPØÕ¢ ë‹"tğ	)4^ß:/ äÍíí‡™=æÔà~”Ê.(­L>9÷=
+wš¹ƒQÔáÛ…Î·Cã¼~·8?pÁÚ?_’IŸkİ‡r\„IÉôÅ	ª2ÌIb"´e.ê6`˜_ê®¥å•óÌJ¦h:ï_şBäªîş€™÷ëQ.Oİ]ÊÏ
