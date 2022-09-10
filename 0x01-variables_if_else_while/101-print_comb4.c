@@ -5,7 +5,7 @@
 * codes for printing all possible combination of two d/t digits
 * in assending order and seperated by a comma followed by a space
 *
-* Return: 0 Success
+* Return: 0
 */
 int main(void)
 {
