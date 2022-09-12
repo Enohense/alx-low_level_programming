@@ -1,20 +1,20 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h
 /**
+* main - entry point
 *
-* Description: using the main function
+* codes for printing all possible two two-digits
+* in ascending order and seperated by comma followed by a space
 *
-*
-*
+* Return: 0
 */
 int main(void)
 {
 	int x = 0, y;
 
-	while(x <= 99)
+	while (x <= 99)
 	{
 		y = x;
-		while(y <= 99)
+		while (y <= 99)
 		{
 			if (y != x)
 			{
