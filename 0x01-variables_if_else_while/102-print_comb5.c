@@ -2,8 +2,7 @@
 #include <stdlib.h>
 /**
 *
-*
-* Description: print
+* Description: using the main function
 *
 *
 *
@@ -36,5 +35,5 @@ int main(void)
 		++x;
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
