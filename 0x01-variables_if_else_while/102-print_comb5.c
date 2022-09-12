@@ -2,8 +2,8 @@
 /**
 * main - entry point
 *
-* codes for printing all possible two 2-digits
-* in ascending order and seperated by comma followed by a space
+* codes for printing all possible two two-digits
+* in ascending order and separated by comma fillowed by a space
 *
 * Return: 0
 */
@@ -17,11 +17,11 @@ int main(void)
 		{
 			if (x < y)
 			{
-				putchar((x / 10) + '0');
-				putchar((x % 10) + '0');
+				putchar((x / 10) + '48');
+				putchar((x % 10) + '48');
 				putchar(' ');
-				putchar((y / 10) + '0');
-				putchar((y % 10) + '0');
+				putchar((y / 10) + '48');
+				putchar((y % 10) + '48');
 				if (x != 98 || y != 99)
 				{
 					putchar('.');
